@@ -32,14 +32,19 @@
         .side-nav{
             margin-top: 4rem;
             .side-item{
-                padding: 6px 0;
-                border-bottom: 0.5px solid rgba(0, 0, 0, 0.06);
-
+                padding: 8px 0;
+                border-bottom: 0.5px solid $clr-green;
+                // background-color: $clr-orange;
                 .side-link{
-                    opacity: 0.9;
+                    padding: 10px;
+                    opacity: 1;
                     transition: $transition;
+                    // background-color: $clr-orange;
                     &:hover{
-                        color: $clr-orange;
+                        color: $clr-white;
+                        font-weight: bold;
+                        background-color: $clr-orange;
+                        border-radius: 3px;
                     }
                 }
             }

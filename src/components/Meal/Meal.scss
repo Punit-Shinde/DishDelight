@@ -22,6 +22,12 @@
             border-radius: 4px 4px 0 0;
             overflow: hidden;
             border: 1px solid rgba(0, 0, 0, 0.1);
+            transition: $transition;
+        }
+        &:hover{
+            img{
+                transform: scale(0.8);
+            }
         }
         &-cat{
             position: absolute;
@@ -90,7 +96,7 @@
                 }
             }
             .ingredients{
-                background-color: $clr-orange;
+                background-color: $clr-green;
 
                 h6{
                     margin-right: 12px;
@@ -119,15 +125,16 @@
 
                         .li-dot{
                             box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 1px;
-                            background-color: $clr-green;
+                            background-color: $clr-orange;
                             color: $clr-white;
-                            width: 20px;
-                            height: 20px;
+                            width: 25px;
+                            height: 25px;
                             display: inline-flex;
                             align-items: center;
                             justify-content: center;
                             border-radius: 50%;
-                            font-size: 12px;
+                            font-size: 14px;
+                            font-weight: 700;
                             margin-right: 8px;
                             border: 0.5px solid white;
                         }

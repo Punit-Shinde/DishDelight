@@ -7,7 +7,7 @@ const MealList = ({ meals }) => {
   return (
     <div className='section-wrapper'>
       <div className='container'>
-        <div className='sc-title'>meals</div>
+        <div className='sc-title'>Dishes</div>
         <section className='sc-meal grid'>
           {
             meals?.map(mealItem => {

@@ -20,7 +20,7 @@
   
 
     .category-itm{
-        background-color: $clr-orange;
+        background-color: $clr-white;
         position: relative;
         margin: 12px auto;
         box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
@@ -38,7 +38,7 @@
 
             &:hover{
                 img{
-                    transform: scale(0.8);
+                    transform: scale(1.3);
                 }
             }
         }
