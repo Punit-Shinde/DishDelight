@@ -36,7 +36,7 @@ const MealSingle = ({ meal }) => {
 
         <div className="sc-title">Dish Details</div>
         <section className="sc-details bg-white">
-          <div className="details-head grid">
+          <div className="details-head grid w-screen">
             <div className="details-img">
               <img src={meal?.thumbnail} alt="" className="img-cover" />
             </div>
